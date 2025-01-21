@@ -1,0 +1,134 @@
+.carousselContainer {
+    position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.carousselTranslate {
+  transform: translateX(33%);
+}
+.carousselContent{
+
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-family: var(--primaryfont);
+    overflow: hidden;
+    font-weight: 100;
+}
+
+.carousselCard {
+    border: 1px solid var(--thirdcolor);
+    text-align: center;
+    padding: 3% 3% 6% 3%;
+}
+
+.carousselCard h3 {
+  font-size: clamp(1.1rem, 0.9308rem + 0.3077vw, 1.3rem);
+    letter-spacing: 1px;
+}
+
+.star {
+  font-size: clamp(1.4rem, 1.2154rem + 0.8205vw, 2.2rem);
+}
+
+
+.carousselCard p{
+    text-align: justify;
+    padding-top: 5%;
+}
+
+.flechesG,
+.flechesD {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.flechesG {
+  left: 10px;
+}
+
+.flechesD {
+  right: 10px;
+}
+
+
+@media screen and (max-width: 1441px) {
+  
+}
+@media screen and (max-width: 1025px) {
+  .carousselContent {
+    width:150vw;
+    height: 40vh;
+    gap: 0;
+  }
+  .carousselCard {
+    height: 100%;
+    width:100%;
+    padding: 4% 3% 6% 3%;
+    
+  }
+  .carousselTranslate {
+    transform: translateX(20%);
+  }
+
+  .carousselCard h3 {
+    font-size: 2.3rem;
+  }
+
+  .star {
+    font-size: 2.5rem;
+  }
+  
+  .carousselCard p {
+    margin-top: 10%;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 769px) {
+
+}
+@media screen and (max-width: 480px) {
+
+.carousselTranslate {
+  transform: translateX(40px);
+}
+
+
+.carousselContent {
+  width:205vw;
+  height: 40vh;
+  gap: 0;
+}
+.carousselCard {
+  height: 100%;
+  width:100%;
+  padding: 3% 2% 6% 2%;
+}
+
+.carousselCard h3 {
+  font-size: 1.4rem;
+}
+
+.star {
+  font-size: 1.5rem;
+}
+
+.carousselCard p {
+  font-size: 0.9rem;
+}
+
+.flechesG {
+  left: -10px;
+}
+
+.flechesD {
+  right: -10px;
+}
+  
+}

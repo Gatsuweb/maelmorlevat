@@ -1,0 +1,199 @@
+.aboutContainer {
+    position: relative;
+    height: 100vh;
+    border-left: 1px solid var(--thirdcolor);
+  
+
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.aboutContainer p {
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.aboutLeft, .aboutMid, .aboutRight {
+    height: 100%;
+    padding: 0 4%;
+    max-width: 30%;
+    text-align: justify;
+}
+
+.aboutLeft {
+    height: 55%;
+    padding-top: 5%;
+    border-right: 1px solid var(--thirdcolor);
+}
+
+.aboutLeft p span {
+    overflow: hidden;
+
+}
+
+/* .aboutLeft p span:first-child {
+   
+
+}
+.aboutLeft p span:nth-child(2) {
+   
+}
+.aboutLeft p span:nth-child(3) {
+   
+
+}
+.aboutLeft p span:nth-child(4) {
+   
+
+} */
+
+.aboutMid {
+    display: flex;
+    align-items: center;
+}
+
+.aboutRight {
+
+    height: 100%;
+    padding: 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-right: 1px solid var(--thirdcolor);
+}
+.aboutRightContent {
+    margin-top: -5%;
+    display: flex;
+    align-items: end;
+    height: 55%;
+    padding: 0 16% 10% 16%;
+    border-left: 1px solid var(--thirdcolor);
+}
+.imgabout{
+    width: 325px;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+@media screen and (max-width: 1580px) {
+    .aboutContainer h2 {
+        font-size: 4rem;
+    }
+  
+}
+@media screen and (max-width: 1025px) {
+   .aboutContainer {
+        height: 100%;
+        padding-top: 10%;
+        border-left: 1px solid var(--thirdcolor);
+        border-right: 1px solid var(--thirdcolor);
+    
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .aboutContainer h2 {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .imgabout{
+        width: 380px;
+        height: 550px;
+        object-fit: cover;
+    
+    }
+    .aboutLeft, .aboutMid, .aboutRight {
+        height: 100%;
+        padding: 0 10%;
+        max-width: 100%;
+        text-align: justify;
+        
+    }
+
+    .aboutRightContent {
+        padding: 0;
+        border: none;
+        height: 100%;
+    }
+
+    .aboutLeft {
+        border: none;
+    }
+
+    .aboutMid {
+        display: flex;
+        justify-content: center;
+    }
+    
+.aboutRight {
+
+    border-right: none;
+}
+  
+}
+@media screen and (max-width: 769px) {
+    .aboutContainer {
+        height: 100%;
+        border-left: 1px solid var(--thirdcolor);
+        border-right: 1px solid var(--thirdcolor);
+    
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+  
+}
+@media screen and (max-width: 480px) {
+    .aboutContainer {
+        margin-top: 20%;
+        border: none;
+        gap: 50px;
+    
+    }
+.aboutContainer h2 {
+    text-align: center;
+}
+    .imgabout{
+        width: 300px;
+        height: 450px;
+        object-fit: cover;
+    
+    }
+    .aboutLeft, .aboutMid, .aboutRight {
+        height: 100%;
+        padding: 0 4%;
+        max-width: 100%;
+        text-align: justify;
+    }
+
+    .aboutRightContent {
+        border: none;
+        padding: 0;
+        width: 100%;
+    }
+
+    .aboutRight {
+        padding: 0 2%;
+    }
+
+
+
+    .aboutLeft {
+        border: none;
+    }
+
+    .aboutMid {
+        display: flex;
+        justify-content: center;
+    }
+  
+  
+}

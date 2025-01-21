@@ -1,0 +1,312 @@
+.sousAboutContainer {
+    padding-top: 2%;
+    position: relative;
+    height: 100vh;
+    border-left: 1px solid var(--thirdcolor);
+    border-right: 1px solid var(--thirdcolor);
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sousAboutLeft, .sousAboutMid, .sousAboutRight {
+    height: 100%;
+    padding: 0 4%;
+    max-width: 30%;
+    text-align: justify;
+    
+}
+
+.imgSousAboutLegumes {
+    margin-left: 20%;
+    
+    
+}
+
+.divMaelLegumes {
+  border-right: 1px solid var(--thirdcolor);
+  height:500px;
+}
+.imgSousAboutMael {
+    margin-top: 45%;
+    height:400px;
+    width: 450px;
+    padding-bottom: 15%;
+    margin-left: -5%;
+
+  }
+  
+.sousAboutLeft, .sousAboutRight {
+  height: 100%;
+  padding: 0 4%;
+  max-width: 100%;
+  text-align: justify;
+  
+}
+
+
+#pRemove {
+  display: none;
+}
+
+.sousAboutLeft {
+    margin-top: -1.5%;
+    height: 100%;
+ 
+}
+/* 
+.divMaelLegumesRight {
+  border-left: 1px solid var(--thirdcolor);
+  height:500px;
+} */
+
+.sousAboutBorder {
+    padding-top: 15%;
+    padding-bottom: 25%;
+    padding-right: 15%;
+    /* border-right: 1px solid var(--thirdcolor); */
+}
+
+
+.sousAboutMid {
+    display: flex;
+    align-items: center;
+  /* Assure que les parties débordantes sont masquées */
+  /* Recadre l'image tout en remplissant le conteneur */
+
+}
+
+.sousAboutBorderRight {
+    padding-bottom: 25%;
+    padding-top: 25%;
+    padding-left: 15%;
+    /* border-left: 1px solid var(--thirdcolor); */
+}
+
+#lastP {
+
+    display: flex;
+  }
+#firstP {
+    display: none;
+  }
+
+
+@media screen and (max-width: 1580px) {
+  .imgSousAbout {
+    height: 500px;
+    width: 250px;
+  }
+  .imgSousAboutMael {
+    margin-top: -2%;
+    height:325px;
+    width: 270px;
+    padding-bottom: 15%;
+  }
+  .imgSousAboutLegumes{
+    height: 300px;
+    width: 270px;
+  }
+}
+@media screen and (max-width: 1025px) {
+
+    .sousAboutContainer {
+        position: relative;
+        height: 200vh;
+        height: 200dvh;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .sousAboutContainer p{
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+
+    .sousAboutLeft, .sousAboutRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        line-height: 1.7;
+        padding-top: 5%;
+   
+    }
+     .imgSousAbout {
+    height: 700px;
+    width: 350px;
+  }
+  .imgSousAboutMael {
+    margin-top: -2%;
+    height:32px;
+    width: 20px;
+    padding-bottom: 15%;
+  }
+  .imgSousAboutLegumes{
+    height: 500px;
+    width: 470px;
+    margin: 0;
+  }
+
+
+
+    .sousAboutLeft, .sousAboutMid, .sousAboutRight {
+        height: 100%;
+        padding: 0 4%;
+        max-width: 100%;
+        text-align: justify;
+        
+    }
+    
+
+    .sousAboutBorderRight {
+        padding-bottom: 15%;
+        padding-top: 5%;
+        padding-left: 0%;
+        border-left: none;
+    }
+    .sousAboutBorder {
+        padding-top: 15%;
+        padding-bottom: 0%;
+        padding-right: 0%;
+        border-right: none;
+    }
+
+    .sousAboutBorders {
+      display: none;
+    }
+    #firstP {
+      margin: 5% 0;
+        display: block;
+      }
+    
+      #lastP{
+        display: none;
+      }
+
+      .sousAboutMid {
+        justify-content: center;
+      }
+
+      
+  .sousAboutBorder {
+    display: none;
+  }
+  .sousAboutBorders {
+    display: flex;
+  }
+
+    
+}
+@media screen and (max-width: 769px) {
+    .sousAboutContainer {
+        position: relative;
+        height: 200vh;
+        height: 200dvh;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .sousAboutLeft, .sousAboutRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        line-height: 1.7;
+        padding-top: 5%;
+    }
+
+
+
+    .sousAboutLeft, .sousAboutMid, .sousAboutRight {
+        height: 100%;
+        padding: 0 4%;
+        max-width: 100%;
+        text-align: justify;
+        
+    }
+
+    .sousAboutBorderRight {
+        padding-bottom: 15%;
+        padding-top: 5%;
+        padding-left: 0%;
+        border-left: none;
+    }
+    .sousAboutBorder {
+        padding-top: 15%;
+        padding-bottom: 0%;
+        padding-right: 0%;
+        border-right: none;
+    }
+    
+}
+@media screen and (max-width: 480px) {
+
+    .sousAboutContainerDeux {
+        position: relative;
+        height: 200vh;
+        height: 200dvh;
+        border-left: none;
+        border-right: none;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .imgSousAbout {
+      margin-top: 5%;
+      height: 80%;
+      width: 80%;
+    }
+    
+    .imgSousAboutMael {
+      margin-left: 0;
+    }
+
+    .imgSousAboutLegumes {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    /* .imgSousAbout{
+        height: 350px;
+        width:180px;
+    } */
+  .sousAboutRight p:first-child {
+    display: block;
+  }
+
+  .sousAboutRight p:last-child {
+    display: none;
+  }
+
+  .sousAboutLeft {
+    margin-top: 10%;
+    padding: 0;
+  }
+
+  .sousAboutBorder {
+    display: none;
+  }
+
+  .sousAboutBorders {
+    display: flex;
+  }
+  .imgSousAboutMael {
+    margin-top: 5%;
+    margin-left: 0%;
+    height: 100%;
+    width: 100%;
+  }
+}

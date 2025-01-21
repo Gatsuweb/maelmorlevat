@@ -1,0 +1,86 @@
+.contactContainer {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 10%;
+    padding-top: 1%;
+    border-left: 1px solid var(--thirdcolor);
+    border-right: 1px solid var(--thirdcolor);
+}
+
+.contactContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.contactContent p {
+    width: 65%;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-size: clamp(0.9rem, 0.7385rem + 0.7179vw, 1.6rem);
+    margin-top: 10%;
+}
+
+.pContact {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media screen and (max-width: 1580px) {
+    .contactContent p {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .contactContent p {
+        width: 100%;
+        text-align: center;
+    }
+.contactContent {
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    }
+    
+    .pContact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pContact h2 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 769px) {
+    .contactContainer {
+   
+        border-left: none;
+        border-right: none;
+    }
+  
+}
+@media screen and (max-width: 480px) {
+
+    .contactContent p {
+        width: 100%;
+        text-align: center;
+    }
+.contactContent {
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    }
+    
+    .pContact {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}

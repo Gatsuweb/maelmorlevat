@@ -1,0 +1,220 @@
+.heroContainer{
+    height: 100vh;
+    background-image: url("/couteau.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.div1 {
+    border-bottom: 1px solid white;
+}
+
+.div2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.div2 h1 {
+    margin-top: 4%;
+}
+
+.div2 p {
+    padding: 0 35%;
+    text-align: center;
+    line-height: 24px;
+}
+
+.div3 {
+    color: var(--thirdcolor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 8%;
+    padding-right: 2%;
+    padding-bottom: 0.5%;
+    overflow: hidden;
+    
+}
+
+.div3 span {
+    margin-left: 7%;
+    color: white;
+    font-family: var(--spanfont);
+    font-size: clamp(1.2rem, 1.0154rem + 0.8205vw, 2rem);
+}
+
+.invisibleDiv {
+    width: 4vw;
+}
+
+.svgSince svg path {
+    fill: transparent;
+    stroke: white;
+    stroke-width: 0.2;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+    animation: textAnim 4s ease-in-out forwards;
+    animation-delay: 2s;
+    
+}
+.iconeshero {
+    padding-top: 1%;
+    
+}
+
+.iconeshero img{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.iconeshero img:hover{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.iconeshero a:last-child {
+    margin-top: -3%;
+}
+
+@keyframes textAnim {
+    0% {
+        stroke-dashoffset: 200;
+    }
+
+    100% {
+        fill: white;
+        stroke-dashoffset: 0;
+    }
+}
+
+.svgMael svg path {
+    fill: transparent;
+    stroke: var(--thirdcolor);
+    stroke-width: 0.2;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+    animation: textAnim2 5s ease-in-out forwards;
+   
+}
+
+@keyframes textAnim2 {
+    0% {
+        stroke-dashoffset: 200;
+    }
+
+    100% {
+        fill: var(--thirdcolor);
+        stroke-dashoffset: 0;
+    }
+}
+
+.iconeshero {
+ 
+    display: flex;
+    gap: 2rem;
+    transform: translateY(200%);
+    animation: fadeup 1s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes fadeup {
+    to {
+      transform: translateY(0%);
+    }
+  }
+
+@media screen and (max-width: 1580px) {
+    .invisibleDiv {
+        width: 7vw;
+    }
+    
+}
+@media screen and (max-width: 1025px) {
+    .heroContainer{
+       background-position: 45% 5%;
+    
+    }
+
+    .div2 {
+        border-left: none;
+        border-right: none;
+    }
+    .div2 p {
+        padding: 0 25%;
+    }
+    .div3 {
+        padding: 0 0 4% 0;
+        border-left: none;
+        border-right: none;
+        flex-direction: column;
+    }
+  
+}
+@media screen and (max-width: 769px) {
+    .div3 {
+        padding-left: 10%;
+        padding-right: 2%;
+    }
+    .iconeshero {
+        display: flex;
+        gap: 0.8rem;
+    }
+    .iconeshero img {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .heroContainer{
+        height: 100vh;
+        background-image: url("/bgm.svg");
+        background-size: cover;
+        background-position: 30%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    .svgMael svg{
+        width: 175px;
+    }
+    .svgSince svg{
+        width: 100px;
+    }
+    .div3 {
+        padding-left: 15%;
+        padding-right: 2%;
+    }
+    .div2 p {
+        padding: 0 15%;
+        text-align: center;
+        line-height: 24px;
+    }
+
+    
+    #imgmail{
+        margin-top: 1%;
+    }
+}

@@ -1,0 +1,100 @@
+.galerieContainer {
+    height: 100vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+    display: flex;
+ 
+    flex-direction: column;
+    border-left: 1px solid var(--thirdcolor);
+    border-right: 1px solid var(--thirdcolor);
+    
+}
+
+.galerieContainer h2{
+    padding-left: 5%;
+    padding: 10%;
+}
+
+.galerieImgs {
+    height: 375vh;
+    overflow: hidden;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-left: 1px solid var(--thirdcolor);
+    border-right: 1px solid var(--thirdcolor);
+}
+
+.boxTop, .boxBottom {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.boxTop {
+    display: flex;
+    justify-content: end;
+}
+
+.boxTop p, .boxBottom p {
+height: 100%;
+width: 70%;
+}
+
+.boxTop p{
+    border-bottom: 1px solid var(--thirdcolor);
+    width: 0;
+}
+.boxBottom  p{
+    border-top: 1px solid var(--thirdcolor);
+}
+
+@media screen and (max-width: 1580px) {
+    .galerieImgs {
+        height: 420vh;
+        overflow: hidden;
+        margin-right: 5%;
+        margin-left: 5%;
+        border-left: 1px solid var(--thirdcolor);
+        border-right: 1px solid var(--thirdcolor);
+    }
+}
+@media screen and (max-width: 1025px) {
+    .galerieContainer {
+        height: 50vh;
+        margin-top: 20%;
+
+    }
+
+
+    .galerieImgs {
+        height: 140vh;
+    }
+
+    .boxTop , .boxBottom {
+        height: 100%;
+        width: 100%;
+        }
+   
+}
+@media screen and (max-width: 769px) {
+    .galerieImgs {
+        height: 140vh;
+    }
+}
+@media screen and (max-width: 480px) {
+    .galerieContainer {
+        height: 25vh;
+        margin-top: 25%;
+        border-left: none;
+        border-right: none;
+
+    }
+  
+.galerieImgs {
+    height: 365vh;
+    border-left: none;
+    border-right: none;
+}
+    
+}

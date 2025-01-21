@@ -1,0 +1,151 @@
+.tarifsContainer {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#tarifsFirst {
+    display: none;
+}
+
+.boxTop {
+    display: flex;
+    justify-content: end;
+    margin-top: 5%;
+}
+
+.boxTop p, .boxBottom p {
+height: 100%;
+width: 70%;
+}
+
+.boxTop p{
+    border-bottom: 1px solid var(--thirdcolor);
+    width: 0;
+}
+.boxBottom  p{
+    border-top: 1px solid var(--thirdcolor);
+}
+
+
+.tarifsCitation h3 {
+    color: var(--thirdcolor);
+    font-family: var(--primaryfont);
+    font-size: clamp(2rem, 1.8846rem + 0.5128vw, 2.5rem);
+}
+
+.tarifsContent {
+    width: 40%;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 50px;
+}
+
+.tarifsContent p {
+    font-size: clamp(1rem, 0.9077rem + 0.4103vw, 1.4rem);
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+.tarifsContent button {
+    width: 20rem;
+    height: 7rem;
+    border: 1px solid var(--thirdcolor);
+    padding: 6%;
+    background-color: transparent;
+    color: var(--thirdcolor);
+    font-family: var(--primaryfont);
+    font-size: clamp(1.2rem, 1.0615rem + 0.6154vw, 1.8rem);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 300% 500%; /* Image étendue pour glisser */
+    background-position: 0 -100%; /* Image commence hors du bouton */
+    transition: background-position  0.6s ease, color 0.8s linear; /* Transition fluide */
+    box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.5);
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+
+.tarifsContent button:hover {
+
+    background-image: url("/marblewhite.webp");
+    background-position: 0 1%; /* L'image glisse dans le bouton */
+    color: black;
+    /* Changement de couleur du texte */
+}
+
+@media screen and (max-width: 1441px) {
+  
+}
+@media screen and (max-width: 1025px) {
+    .tarifsContainer {
+        border-top: 1px solid var(--thirdcolor);
+        border-bottom: 1px solid var(--thirdcolor);
+        margin-top: 25%;
+        height: 80vh;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20% 5%;
+        text-align: center;
+      }
+
+      #tarifsFirst {
+          display: block;
+      }
+      .boxTop , .boxBottom {
+     display: none;
+        }
+  
+      .tarifsContent h2 {
+          display: none;
+      }
+      .tarifsContent {
+          width: 100%;
+          text-align: justify;
+          align-items: center;
+      }
+}
+@media screen and (max-width: 769px) {
+    .tarifsContainer {
+
+      flex-direction: column;
+    }
+    #tarifsFirst {
+        display: block;
+    }
+    
+
+    .tarifsContent h2 {
+        display: none;
+    }
+    .tarifsContent {
+        width: 100%;
+        text-align: justify;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 480px) {
+
+    .tarifsCitation {
+        text-align: center;
+    }
+    .tarifsContent button {
+        border: 1px solid var(--thirdcolor);
+        padding: 6%;
+ 
+    }
+    .boxTop p{
+        border-bottom: none;
+        width: 0;
+    }
+    .boxBottom  p{
+        border-top: none;
+    }
+  
+}

@@ -1,28 +1,34 @@
+@font-face {
+  font-family: "Cinzel";
+  src: url("./fonts/Cinzel-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Cinzelbold";
+  src: url("./fonts/Cinzel-Bold.otf");
+}
+@font-face {
+  font-family: "Cinzeldecobold";
+  src: url("./fonts/CinzelDecorative-Bold.otf");
+}
+@font-face {
+  font-family: "Cinzeldeco";
+  src: url("./fonts/CinzelDecorative-Regular.otf");
+}
+@font-face {
+  font-family: "Corinthia";
+  src: url("./fonts/Corinthia-Regular.ttf");
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --thirdcolor: #FAEDCD;
+  --primaryfont: "Cinzel";
+  --secondaryfont: "Cinzelbold";
+  --thirdfont: "Cinzeldecobold";
+  --lastfont: "Cinzeldeco";
+  --spanfont: "Corinthia"
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 * {
   box-sizing: border-box;
@@ -30,13 +36,69 @@ body {
   margin: 0;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("/texture.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: var(--primaryfont);
+  color: var(--background);
+  font-weight: 100;
+  font-size: clamp(1.6rem, 0.9535rem + 2.9554vw, 4.5rem);
+}
+h2 {
+  font-family: var(--primaryfont);
+  color: var(--thirdcolor);
+  font-weight: 100;
+  font-size: clamp(3.5rem, 3.1538rem + 1.5385vw, 5rem);
+}
+
+h4 {
+  font-family: var(--primaryfont);
+  color: var(--thirdcolor);
+  font-size: clamp(0.9rem, 0.7385rem + 0.7179vw, 1.6rem);
+      font-weight: lighter;
+      line-height: 1;
+}
+
+p {
+  font-family: var(--primaryfont);
+  color: var(--background);
+  font-size: clamp(0.9rem, 0.8769rem + 0.1026vw, 1rem);
+    font-weight: lighter;
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
+}
+
+li {
+  font-family: var(--primaryfont);
+  color: var(--background);
+  font-size: clamp(0.8rem, 0.6662rem + 0.6115vw, 1.4rem);
+}
+
 a {
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@media screen and (max-width: 1441px) {
+  
+}
+@media screen and (max-width: 1025px) {
+  
+}
+@media screen and (max-width: 769px) {
+  
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    text-align: center;
   }
 }

@@ -1,0 +1,57 @@
+.avisContainer {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100vh;
+}
+
+.headerAvis {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+.lineAvis {
+    border-bottom: 1px solid #FAEDCD;
+    width: 100%;
+}
+
+.caroussel {
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1580px) {
+  
+}
+@media screen and (max-width: 1025px) {
+  
+}
+@media screen and (max-width: 769px) {
+  
+}
+@media screen and (max-width: 480px) {
+    .avisContainer {
+        margin-top: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 75vh;
+    }
+    .lineAvis {
+     display: none;
+    }
+    
+    .headerAvis {
+        display: flex;
+       justify-content: center;
+        gap: 0;
+    }
+
+    .caroussel {
+        height: 70%;
+        display: flex;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,174 @@
+.prestationsContainer {
+  height: 100vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+.headerPresta {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+.linepresta {
+    border-bottom: 1px solid #FAEDCD;
+    width: 100%;
+}
+
+.prestationsRow {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+
+.iconeTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.prestationCard, .prestationCards {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    padding: 0% 5%;
+}
+
+.prestationCard{
+
+    border-bottom: 1px solid #FAEDCD;
+
+  }
+
+
+
+  .prestationCards:last-child,   .prestationCard:last-child {
+
+    border-left: 1px solid #FAEDCD;
+
+  }
+  
+  .prestationIcon {
+    font-size: 2rem;
+    text-align: center;
+
+  }
+  
+  .prestationTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  .prestationDescription {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: -3%;
+    margin-bottom: 1rem;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  .prestationPrice {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+  }
+
+@media screen and (max-width: 1600px) {
+
+  .prestationDescription {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+
+  .prestationIcon {
+    padding: 0;
+  }
+  .prestationIcon img {
+    width: 125px;
+    height: 100px;
+  }
+  
+}
+@media screen and (max-width: 1025px) {
+  .prestationsContainer {
+    margin-top: 10%;
+    flex-direction: column;
+    gap: 50px;
+
+  }
+
+  .headerPresta {
+    justify-content: center;
+  }
+
+  .prestationsRow {
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+  .prestationCard, .prestationCards {
+      display: flex;
+      padding-bottom: 5%;
+    border: 1px solid #FAEDCD;
+    
+  }
+  .prestationIcon img {
+      width: 150px;
+  }
+
+  .linepresta {
+   display: none;
+}
+    
+}
+@media (max-width: 768px) {
+    .prestationsContainer {
+
+      flex-direction: column;
+      gap: 50px;
+
+    }
+
+    .headerPresta {
+      justify-content: center;
+    }
+
+    .prestationsRow {
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+  
+    .prestationCard, .prestationCards {
+        display: flex;
+        padding-bottom: 5%;
+      border: 1px solid #FAEDCD;
+      
+    }
+    .prestationIcon img {
+        width: 120px;
+    }
+
+    .linepresta {
+     display: none;
+  }
+  }
+  
+@media screen and (max-width: 480px) {
+  .prestationsContainer {
+    height: 205vh;
+    height: 200dvh;
+    flex-direction: column;
+    gap: 50px;
+
+  }
+}

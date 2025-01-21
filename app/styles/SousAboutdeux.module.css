@@ -1,0 +1,328 @@
+.sousAboutDeuxContainer {
+    position: relative;
+    height: 110vh;
+    border-left: 1px solid var(--thirdcolor);
+    border-right: 1px solid var(--thirdcolor);
+
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sousAboutDeuxContainer p {
+    line-height: 25px;
+    letter-spacing: 2px;}
+
+.sousAboutLeftDeux, .sousAboutMidDeux, .sousAboutRightDeux {
+    height: 100%;
+    padding: 0% 4%;
+    max-width: 30%;
+    text-align: justify;
+}
+
+.sousAboutLeftDeux {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+    
+}
+
+.sousAboutMidDeux {
+    display: flex;
+    align-items: center;
+}
+.sousAboutRightDeux  {
+    padding: 0;
+    display: flex;
+  
+    align-items: start;
+    justify-content: center;
+}
+.sousAboutRightContentDeux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height:100%;
+
+}
+
+.sousAboutRightContentDeux {
+    padding: 0% 16% 5% 16%;
+
+    width: 100%;
+
+}
+
+.sousAboutBorderLeftDeux {
+    margin-bottom: 0%;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+.sousAboutBorderRightDeux {
+    display: flex;
+    width: 450px;
+    align-items: end;
+
+}
+
+#firstP {
+    display: none;
+}
+
+
+  #pRepop {
+
+    display: none;
+  }
+
+  .borderLast {
+    height:25%;
+    width: 100%;
+    border-right: 1px solid var(--thirdcolor);
+    display: flex;
+    align-items: center;
+    padding-right: 15%;
+  }
+
+  .borderLastRight {
+    height:25%;
+    width: 100%;
+    border-left: 1px solid var(--thirdcolor);
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+  }
+#pRemove{
+    display: flex;
+
+  }
+
+
+
+  @media screen and (max-width: 1580px) {
+    .imgSousAbout {
+      height: 500px;
+      width: 350px;
+    }
+    .imgSousAboutMael {
+        margin-top: 10%;
+      height:325px;
+      width: 270px;
+      margin-left: 5%;
+    
+    }
+    .imgSousAboutLegumes{
+      height: 275px;
+      width: 250px;
+    }
+    #lastP {
+        padding-bottom: 10%;
+    }
+
+.sousAboutRightContentDeux {
+    padding: 0% 12% 5% 12%;
+
+}
+    
+.sousAboutLeftDeux {
+    padding-left: 3%;
+
+
+    width: 100%;
+
+}
+
+    .borderLast {
+        height:25%;
+        width: 100%;
+        border-right: 1px solid var(--thirdcolor);
+        display: flex;
+        align-items: center;
+        padding-right: 12%;
+      }
+    
+      .borderLastRight {
+        height:20%;
+        width: 100%;
+        border-left: 1px solid var(--thirdcolor);
+        display: flex;
+        align-items: center;
+        padding-left: 12%;
+        justify-content: center;
+      }
+    
+
+    .sousAboutRightDeux {
+        padding-top: -3%;
+    }
+
+    #pRemove{
+        padding-top: 10%;
+    
+      }
+  }
+  
+
+@media screen and (max-width: 1025px) {
+ .sousAboutDeuxContainer {
+        height: 100%;
+        padding-top: 10%;
+        border-left: 1px solid var(--thirdcolor);
+        border-right: 1px solid var(--thirdcolor);
+    
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    
+  #pRepop {
+
+    display: flex;
+  }
+#pRemove{
+    display: none;
+  }
+    
+.sousAboutRightContentDeux p{
+    padding: 35% 16% 5% 16%;
+
+    width: 100%;
+    border-left: none;
+
+}
+
+
+
+    .sousAboutLeftDeux, .sousAboutMidDeux, .sousAboutRightDeux{
+        height: 100%;
+        padding: 0 10%;
+        max-width: 100%;
+        text-align: justify;
+        align-items: center;
+        
+    }
+
+    .sousAboutRightContentDeux {
+        padding: 0;
+        border: none;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .sousAboutRightContentDeux p {
+        padding: 0;
+
+    }
+
+    .sousAboutBorderLeftDeux{
+        border: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sousAboutMidDeux {
+        display: flex;
+        justify-content: center;
+    }
+
+    #lastP {
+
+        display: none;
+      }
+    #firstP {
+        display: flex;
+      }
+      
+      .sousAboutLeftDeux, .sousAboutMidDeux, .sousAboutRightDeux {
+      gap: 50px;
+      }
+      .imgSousAboutMael {
+        margin-top: 5%;
+        height: 100%;
+        width: 70%;
+        margin-left: 0;
+      }
+
+      .imgSousAbout {
+        margin-top: 5%;
+        height: 80%;
+        width: 70%;
+      }
+      
+
+  
+      .imgSousAboutLegumes {
+          height: 100%;
+          width: 100%;
+          margin: 0;
+      }
+  
+}
+@media screen and (max-width: 769px) {
+
+    
+  
+}
+@media screen and (max-width: 480px) {
+    .sousAboutDeuxContainer {
+        margin-top: 20%;
+        border: none;
+        gap: 50px;
+    
+    } 
+ 
+    .sousAboutLeftDeux, .sousAboutMidDeux, .sousAboutRightDeux {
+        height: 100%;
+        padding: 0 4%;
+        max-width: 100%;
+        text-align: justify;
+    }
+
+    .aboutRightContentDeux {
+        border: none;
+        padding: 0;
+        width: 100%;
+    }
+
+
+
+
+
+    .sousAboutLeftDeux {
+        border: none;
+    }
+
+    .imgSousAboutMael {
+        margin-top: 5%;
+        height: 100%;
+        width: 70%;
+        margin-left: 0;
+      }
+
+      .imgSousAbout {
+        margin-top: 5%;
+        height: 100%;
+        width: 100%;
+      }
+      
+
+  
+      .imgSousAboutLegumes {
+          height: 100%;
+          width: 100%;
+          margin: 0;
+      }
+  
+  
+}

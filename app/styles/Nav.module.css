@@ -1,0 +1,205 @@
+.navContent {
+  width: 100vw;
+  overflow: hidden;
+}
+.navList{
+  font-weight:lighter;
+  letter-spacing: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0.5% 0;
+    transform: translateY(-100%);
+    animation: fadedown 1s forwards;
+}
+
+@keyframes fadedown {
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.navList li a:hover {
+  transition: color 0.3s ease;
+  color: var(--thirdcolor);
+}
+
+.navList:has(a:hover) a:not(:hover) {
+  transition: color 0.3s ease;
+  color: rgba(254, 247, 235, 0.7);
+}
+
+
+  .burgerBtn {
+    padding: 2% 10% 0 0;
+    display: none;
+    flex-direction: column;
+    background-color: transparent;
+    height: 50px;
+    width: 30px;
+    gap: 10px;
+    border: none;
+  }
+
+  .navBurger {
+    padding: 3% 4% 0 4%;
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .lines{
+    background-color: white;
+    height: 2px;
+    width: 40px;
+
+  }
+  .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%; 
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay semi-transparent */
+    z-index: 999;
+  }
+  
+  .modalList {
+    position: relative;
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 40px;
+    text-align: left; /* Alignement du texte à gauche */
+  }
+  
+  .modalList li {
+    letter-spacing: 1px;
+    color: white;
+    font-size: clamp(1.4rem, 1.0308rem + 1.641vw, 3rem);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+
+  .burgerBtn {
+    color: white;
+    right: 0;
+    display: block;
+    position: absolute;
+    z-index: 9999;
+  }
+
+
+  
+  @media screen and (max-width: 1441px) {
+  
+  }
+  @media screen and (max-width: 1025px) {
+    .navList {
+      display: none;
+      list-style: none;
+    }
+    .navContent {
+      display: flex;
+      width: 100%;
+      justify-content: end;
+    }
+    .burgerBtn {
+      height: 45px;
+    }
+
+    .navBurger li {
+      list-style: none;
+    }
+    .burgerBtn.open .lines:nth-child(1) {
+      transform: rotate(45deg) translate(7px, 7px);
+    }
+  
+    .burgerBtn.open .lines:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .burgerBtn.open .lines:nth-child(3) {
+      transform: rotate(-45deg) translate(10px, -10px);
+    }
+
+    .modal {
+    
+      display: flex;
+
+    }
+    
+    .burgerBtn {
+      display: flex;
+    }
+
+    .navBurger {
+      display: flex;
+  
+    }
+    
+  }
+  @media screen and (max-width: 769px) {
+  }
+  @media screen and (max-width: 480px) {
+
+    .burgerBtn.open .lines:nth-child(1) {
+      transform: rotate(45deg) translate(8px, 7px);
+    }
+  
+    .burgerBtn.open .lines:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .burgerBtn.open .lines:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
+      .div3 {
+          padding-left: 15%;
+          padding-right: 2%;
+      }
+      .burgerBtn {
+        height: 50px;
+        gap: 7px;
+      }
+      
+  .lines{
+    background-color: white;
+    height: 2px;
+    width: 32px;
+
+  }
+  .navBurger {
+    display: flex;
+
+  }
+
+  .navBurger li {
+    list-style: none;
+  }
+  }

@@ -1,0 +1,133 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--primaryfont);
+}
+
+.formGroup {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup input, .formGroup textarea {
+    height: 60px;
+    color: white;
+    width: 600px;
+    background-color: transparent;
+    border: 1px solid var(--thirdcolor);
+    padding: 2% 4%;
+    margin-bottom: 2%;
+}
+
+.formGroup textarea {
+    height: 300px;
+}
+
+.formGroup label {
+    font-size: 1.4rem;
+    margin: 5% 0;
+}
+.btnContact {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.btnContact button {
+    margin-top: 5%;
+    border: 1px solid var(--thirdcolor);
+    padding: 5% 10%;
+    background-color: transparent;
+    color: var(--thirdcolor);
+    font-family: var(--primaryfont);
+    font-size: clamp(1rem, 0.9077rem + 0.4103vw, 1.4rem);    cursor: pointer;
+    box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.5);
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-size: 300% 500%; /* Image étendue pour glisser */
+    background-position: 0 -100%; /* Image commence hors du bouton */
+    transition: background-position  0.6s ease, color 0.8s linear; /* Transition fluide */
+}
+
+.btnContact button:hover {
+
+    background-image: url("/marblewhite.webp");
+    background-position: 0 1%; /* L'image glisse dans le bouton */
+    color: black;
+    /* Changement de couleur du texte */
+}
+
+@media screen and (max-width: 1441px) {
+  
+}
+@media screen and (max-width: 1025px) {
+    .contactForm {
+        margin-top: 10%;
+        text-align: center;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .formGroup  {
+
+        width: 100%;
+     
+    }
+    .formGroup input  {
+        height: 30px;
+        width: 100%;
+        background-color: transparent;
+        border: 1px solid var(--thirdcolor);
+        padding: 6% 4%;
+        margin-bottom: 2%;
+    }
+
+    .formGroup textarea {
+        width: 100%;
+        padding: 6% 4%;
+    }
+
+    .formGroup label {
+        margin: 3% 0;
+    }
+
+    .btnContact {
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 769px) {
+  
+}
+@media screen and (max-width: 480px) {
+    .contactForm {
+        margin-top: 10%;
+        text-align: center;
+    }
+    .formGroup  {
+
+        width: 100%;
+     
+    }
+    .formGroup input  {
+        height: 30px;
+        width: 100%;
+        background-color: transparent;
+        border: 1px solid var(--thirdcolor);
+        padding: 6% 4%;
+        margin-bottom: 2%;
+    }
+
+    .formGroup textarea {
+        width: 100%;
+        padding: 6% 4%;
+    }
+
+    .formGroup label {
+        margin: 3% 0;
+    }
+
+    .btnContact {
+        justify-content: center;
+    }
+}
