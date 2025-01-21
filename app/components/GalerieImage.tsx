@@ -15,7 +15,11 @@ export const GalerieImage = () => {
       target: containerG,
       offset: ["start end", "end start"],
     })
-    
+    interface ImageDetails {
+      source: string;
+      alt: string;
+      desc?: string;
+    }
 
     const y = useTransform(scrollYProgress,[ 0, 1], [ 0, 1000])
     const y2 = useTransform(scrollYProgress,[ 0, 1], [ 0, -2000])
@@ -23,9 +27,8 @@ export const GalerieImage = () => {
     const y4 = useTransform(scrollYProgress,[ 0, 1], [ 0, -500])
 
     const [isModalOpen, setIsModalOpen] = useState(false)
-    const [selectedImage, setSelectedImage] = useState(null);
-
-    const openModal = (image:any) => {
+    const [selectedImage, setSelectedImage] = useState<ImageDetails | null>(null);
+    const openModal = (image: ImageDetails) => {
       setSelectedImage(image);
       setIsModalOpen(true);
     };
@@ -392,7 +395,7 @@ const colonneQuatreM= [
   width={500}
   className={styles.modalImage}
 />
-            <p><span>“ </span>{selectedImage.desc}<span> ”</span></p>
+            <p><span>“ </span>{selectedImage!.desc}<span> ”</span></p>
             <button onClick={closeModal} className={styles.closeButton}>
               &times;
             </button>

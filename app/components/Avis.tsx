@@ -18,7 +18,6 @@ const widthAnim = {
 }
 
 export const Avis = () => {
-    const container = useRef(null)
     const ref = useRef(null)
 
   return (
