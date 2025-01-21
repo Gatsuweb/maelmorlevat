@@ -217,4 +217,8 @@
     #imgmail{
         margin-top: 1%;
     }
+
+    .invisibleDiv {
+        width: 0;
+    }
 }
