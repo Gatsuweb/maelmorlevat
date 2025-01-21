@@ -141,11 +141,9 @@ width: 70%;
  
     }
     .boxTop p{
-        border-bottom: none;
-        width: 0;
+     display: none;
     }
     .boxBottom  p{
-        border-top: none;
-    }
+display: none;    }
   
 }
