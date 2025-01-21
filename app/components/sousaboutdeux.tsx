@@ -32,12 +32,12 @@ import styles from '../styles/SousAboutdeux.module.css'
       }}>  
             
             <div className={styles.borderLast}>
-            <p id={styles.pRemove}>DÈS MON PLUS JEUNE AGE, J'AI ÉTÉ CAPTIVÉ PAR L'ART DE LA CUISINE, INSPIRÉ PAR LES PRODUITS FRAIS ET LOCAUX QUE L'ON TROUVE EN ABONDANCE DANS NOTRE BELLE RÉGION. </p>
+            <p id={styles.pRemove}>DÈS MON PLUS JEUNE AGE, J&apos;AI ÉTÉ CAPTIVÉ PAR L&apos;ART DE LA CUISINE, INSPIRÉ PAR LES PRODUITS FRAIS ET LOCAUX QUE L&apos;ON TROUVE EN ABONDANCE DANS NOTRE BELLE RÉGION. </p>
             </div>            
             <div className={styles.sousAboutBorderLeftDeux}>
                 <Image src="/galerie/mael2.svg" alt='' height={400} width={375} className={styles.imgSousAboutMael}/>
                 </div>
-                <p id={styles.pRepop}>DÈS MON PLUS JEUNE AGE, J'AI ÉTÉ CAPTIVÉ PAR L'ART DE LA CUISINE, INSPIRÉ PAR LES PRODUITS FRAIS ET LOCAUX QUE L'ON TROUVE EN ABONDANCE DANS NOTRE BELLE RÉGION. </p>
+                <p id={styles.pRepop}>DÈS MON PLUS JEUNE AGE, J&apos;AI ÉTÉ CAPTIVÉ PAR L&apos;ART DE LA CUISINE, INSPIRÉ PAR LES PRODUITS FRAIS ET LOCAUX QUE L&apos;ON TROUVE EN ABONDANCE DANS NOTRE BELLE RÉGION. </p>
 
         </motion.div>
 
@@ -45,7 +45,7 @@ import styles from '../styles/SousAboutdeux.module.css'
         opacity: midScroll.scrollYProgress,
         scale: midScroll.scrollYProgress
       }}>
-          <Image src="/photomael2.jpg" alt='' height={525} width={330}  className={styles.imgSousAbout} />
+          <Image src="/photomael2.jpg" alt='photo auteur' height={525} width={330}  className={styles.imgSousAbout} />
           </motion.div>
 
           <motion.div ref={rightRef} className={styles.sousAboutRightDeux} style={{
@@ -53,10 +53,10 @@ import styles from '../styles/SousAboutdeux.module.css'
         scale: rightScroll.scrollYProgress
       }}>
             <div className={styles.sousAboutRightContentDeux}>
-                <p id={styles.firstP}>Parce que chaque plat mérite les meilleurs ingrédients, je sélectionne avec soin des produits de qualité pour sublimer vos moments gourmands TOUT EN Y APPORTANT UNE TOUCHE PERSONNELLE.</p>
+                <p id={styles.firstP}>Parce que chaque plat mérite les meilleurs ingrédients, je sélectionne avec soin des produits de qualité pour sublimer vos moments gourmands tout en y apportant une touche personnelle.</p>
                 <Image src="/galerie/legumes.svg" alt='' height={300} width={325} className={styles.imgSousAbout}/>
                 <div className={styles.borderLastRight}> 
-                <p id={styles.lastP}>Parce que chaque plat mérite les meilleurs ingrédients, je sélectionne avec soin des produits de qualité pour sublimer vos moments gourmands TOUT EN Y APPORTANT UNE TOUCHE PERSONNELLE.</p>
+                <p id={styles.lastP}>Parce que chaque plat mérite les meilleurs ingrédients, je sélectionne avec soin des produits de qualité pour sublimer vos moments gourmands tout en y apportant une touche personnelle.</p>
                 </div>
             </div>
         </motion.div>
