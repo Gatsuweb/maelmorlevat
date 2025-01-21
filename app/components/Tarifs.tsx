@@ -32,7 +32,7 @@ export const Tarifs = () => {
         </div>
         <div className={styles.tarifsContent}>
             <h2 id={styles.tarifsLast}>Tarifs</h2>
-            <p>Ces derniers sont indicatifs et feront l'objet d'un devis personnalisé, établi avec vous lors d'un échange téléphonique ou par e-mail.</p>
+            <p>Ces derniers sont indicatifs et feront l&apos;objet d&apos;un devis personnalisé, établi avec vous lors d&apos;un échange téléphonique ou par e-mail.</p>
            <a href="#contact"> <button>Contactez-moi</button></a>
         </div>
     </div>

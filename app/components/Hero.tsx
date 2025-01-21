@@ -14,7 +14,7 @@ export const Hero = () => {
 
         </div>
         <p>Avec un chef à domicile, transformez vos repas en une expérience unique.<br />
-        Découvrez une cuisine élaborée avec soin et passion, profitez d’un menu sur-mesure adapté à vos envies.</p>
+        Découvrez une cuisine élaborée avec soin et passion, profitez d&apos;un menu sur-mesure adapté à vos envies.</p>
       </div>
       <div className={styles.div3}>
         <div className={styles.invisibleDiv}></div>

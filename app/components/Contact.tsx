@@ -11,9 +11,9 @@ export const Contact = () => {
               Vous avez une question ou souhaitez organiser un évenement culinaire sur-mesure ? 
             </p>
             <p>
-            N’hésitez pas à me contacter via le formulaire ci-contre.
+            N&apos;hésitez pas à me contacter via le formulaire ci-contre.
             </p>
-            <p> à bientot je l’espere dans votre cuisine !</p>
+            <p> à bientot je l&apos;espere dans votre cuisine !</p>
           </div>
           <div className={styles.contactformulaire}>
             <ContactForm />

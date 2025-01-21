@@ -31,13 +31,13 @@ export const Sousabout = () => {
         scale: leftScroll.scrollYProgress
       }}>
         <div className={styles.sousAboutBorder}>
-          <p id={styles.pRepop}>DÈS MON PLUS JEUNE AGE, J'AI ÉTÉ CAPTIVÉ PAR L'ART DE LA CUISINE, INSPIRÉ PAR LES PRODUITS FRAIS ET LOCAUX QUE L'ON TROUVE EN ABONDANCE DANS NOTRE BELLE RÉGION. </p>
+          <p id={styles.pRepop}>DÈS MON PLUS JEUNE AGE, J&apos;AI ÉTÉ CAPTIVÉ PAR L&apos;ART DE LA CUISINE, INSPIRÉ PAR LES PRODUITS FRAIS ET LOCAUX QUE L&apos;ON TROUVE EN ABONDANCE DANS NOTRE BELLE RÉGION. </p>
         </div>
         <div className={styles.divMaelLegumes}>
         <Image src="/galerie/mael2.svg" alt='' height={250} width={325} className={styles.imgSousAboutMael}/>
         </div>
         <div className={styles.sousAboutBorders}>
-          <p id={styles.pRemove}>DÈS MON PLUS JEUNE AGE, J'AI ÉTÉ CAPTIVÉ PAR L'ART DE LA CUISINE, INSPIRÉ PAR LES PRODUITS FRAIS ET LOCAUX QUE L'ON TROUVE EN ABONDANCE DANS NOTRE BELLE RÉGION. </p>
+          <p id={styles.pRemove}>DÈS MON PLUS JEUNE AGE, J&apos;AI ÉTÉ CAPTIVÉ PAR L&apos;ART DE LA CUISINE, INSPIRÉ PAR LES PRODUITS FRAIS ET LOCAUX QUE L&apos;ON TROUVE EN ABONDANCE DANS NOTRE BELLE RÉGION. </p>
         </div>
       </motion.div>
 

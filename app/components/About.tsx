@@ -37,12 +37,12 @@ export const About = () => {
           >
         <h2>À propos</h2>
         <p>
-          <span>Je m'appelle Maël Morlevat</span>,{" "}
+          <span>Je m&apos;appelle Maël Morlevat</span>,{" "}
           <span>cuisinier passionné originaire</span>{" "}
-          <span>de Bretagne. J'ai grandi et réalisé ma scolarité</span>
+          <span>de Bretagne. J&apos;ai grandi et réalisé ma scolarité</span>
           <span>
             {" "}
-            sur l'île de Bréhat et Paimpol dans les Côtes d'Armor,
+            sur l&apos;île de Bréhat et Paimpol dans les Côtes d&apos;Armor,
           </span>{" "}
           deux lieux qui ont profondément influencé ma cuisine et ouvert mon
           esprit sur la gastronomie.
@@ -64,7 +64,7 @@ export const About = () => {
               scale: rightScroll.scrollYProgress,
             }}>
             <div className={styles.aboutRightContent}>
-              <p>Je partage Avec vous mes créations, Mes recettes et les anecdotes de mes voyages. Que vous soyez amateur de gastronomie ou simplement curieux, Mon objectif est de vous inspirer et de vous offrir un moment de plaisir. Bienvenue dans mon univers culinaire !</p>
+              <p>Je partage avec vous mes créations, mes recettes et les anecdotes de mes voyages. Que vous soyez amateur de gastronomie ou simplement curieux, Mon objectif est de vous inspirer et de vous offrir un moment de plaisir. Bienvenue dans mon univers culinaire !</p>
           </div>
           
         </motion.div>
