@@ -186,7 +186,6 @@
     .heroContainer{
         height: 100vh;
         background-image: url("/bgm.svg");
-        background-size: cover;
         background-size: auto 100%;        background-repeat: no-repeat;
         background-attachment: fixed;
         width: 100%;
