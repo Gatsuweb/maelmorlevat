@@ -19,7 +19,7 @@
 .testBg {
     background-image: url("/texture.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 100vh;
 }
 
 
