@@ -11,6 +11,8 @@
 
 }
 
+
+
 @keyframes navoff {
     to {
         opacity: 0.2;
@@ -57,7 +59,16 @@
     .navBar {
         padding-bottom: 2%;
     }
-    
+    .about {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.logoAbout {
+display: none;
+
+}
  
 }
 @media screen and (max-width: 769px) {
