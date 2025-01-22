@@ -17,9 +17,11 @@
     z-index: -1;
 }
 .testBg {
+    position: fixed;
     background-image: url("/texture.svg");
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    background-size: 100% 100%;
+    
 }
 
 
