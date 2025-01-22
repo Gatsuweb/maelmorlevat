@@ -17,7 +17,7 @@
 }
 
 .galerieImgs {
-    height: 375vh;
+    height: 385vh;
     overflow: hidden;
     margin-right: 5%;
     margin-left: 5%;
@@ -95,7 +95,7 @@ width: 70%;
     }
   
 .galerieImgs {
-    height: 365vh;
+    height: 375vh;
     border-left: none;
     border-right: none;
 }
