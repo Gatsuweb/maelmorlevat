@@ -184,9 +184,8 @@
 @media screen and (max-width: 480px) {
     .heroContainer{
         height: 100vh;
-        /* background-image: url("/bgm.svg");
-        background-size: auto 100%;        background-repeat: no-repeat;
-        background-attachment: fixed; */
+        background-image: url("/bgm.svg");
+        background-size: cover;        background-repeat: no-repeat;
         width: 100%;
         overflow: hidden;
         display: flex;

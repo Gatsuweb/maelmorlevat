@@ -25,8 +25,22 @@
     border-right: 1px solid var(--thirdcolor);
 }
 
-.boxTop, .boxBottom {
+.boxTop {
     display: flex;
+    justify-content: end;
+}
+
+.boxTop p, .boxBottom p {
+height: 100%;
+width: 70%;
+}
+
+.boxTop p{
+    border-bottom: 1px solid var(--thirdcolor);
+    width: 0;
+}
+.boxBottom  p{
+    border-top: 1px solid var(--thirdcolor);
 }
 
 @media screen and (max-width: 1580px) {
