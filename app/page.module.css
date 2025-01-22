@@ -1,4 +1,12 @@
 
+.page {
+    background-image: url("/texture.svg"); /* Chemin de ton image */
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'écran */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    background-attachment: fixed; /* Fixe l'image lors du scroll */
+    background-position: center; /* Centre l'image */
+    min-height: 100vh; 
+}
 .navBar {
     position: fixed;
     width: 100vw;

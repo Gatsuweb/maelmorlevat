@@ -40,16 +40,14 @@ html, body {
   scroll-behavior: smooth;
 }
 
-body::before {
-  width: 100%;
-  height: 100%;
+/* body:befo {
   background-image: url("/texture2.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
   background-color: #171717;
-}
+} */
 
 
 h1 {
@@ -97,21 +95,13 @@ a {
   
 }
 @media screen and (max-width: 1025px) {
-
-  body {
-    background-size: contain; /* Ajuste l'image pour qu'elle s'adapte sans couper */
-    background-position: center top; /* Positionne l'image correctement */
-  }
 }
 @media screen and (max-width: 769px) {
 
   
 }
 @media screen and (max-width: 480px) {
-  body {
-    background-size: 300px 300px; /* Ajuste l'image pour qu'elle s'adapte sans couper */
-    background-position: center top; /* Positionne l'image correctement */
-  }
+
   h2 {
     text-align: center;
   }
