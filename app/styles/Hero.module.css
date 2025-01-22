@@ -211,6 +211,10 @@
         line-height: 24px;
     }
 
+    
+    #imgmail{
+        margin-top: 3%;
+    }
 
     .invisibleDiv {
         display: none;
