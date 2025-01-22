@@ -25,6 +25,12 @@
     border-right: 1px solid var(--thirdcolor);
 }
 
+.boxTop, .boxBottom {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
 .boxTop {
     display: flex;
     justify-content: end;
@@ -42,7 +48,6 @@ width: 70%;
 .boxBottom  p{
     border-top: 1px solid var(--thirdcolor);
 }
-
 @media screen and (max-width: 1580px) {
     .galerieImgs {
         height: 420vh;
