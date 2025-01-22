@@ -41,7 +41,10 @@ html, body {
 }
 
 body {
-
+  background-image: url("/texture.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
   scroll-behavior: smooth;
 }
 
@@ -89,6 +92,7 @@ a {
   
 }
 @media screen and (max-width: 1025px) {
+  
 }
 @media screen and (max-width: 769px) {
   

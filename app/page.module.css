@@ -12,14 +12,6 @@
 
 }
 
-.bgmarble {
-    background-image: url("/texture.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-
 @keyframes navoff {
     to {
         opacity: 0.2;

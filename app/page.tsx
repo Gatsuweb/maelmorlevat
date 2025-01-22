@@ -19,32 +19,30 @@ export default function Home() {
           <div className={styles.navBar}>
        <Nav />
       </div>
-      <div className={styles.bgmarble}>
-          <div id="accueil">
-          <Hero />
-          </div>
-          <div className={styles.about}>
-            <About />
-            <Image src="/logomael.svg" alt='Photo auteur' height={500} width={250} className={styles.logoAbout} />
-        </div>
-        <SousAboutdeux />
+      <div id="accueil">
+      <Hero />
+      </div>
+      <div className={styles.about}>
+        <About />
+        <Image src="/logomael.svg" alt='Photo auteur' height={500} width={250} className={styles.logoAbout} />
+     </div>
+     <SousAboutdeux />
 
-        <div id='prestations'>
-        <Préstations />
-        </div>
-        <div>
-        <Tarifs />
-        </div>
-        <div>
-        <Galerie />
-        </div>
-    
-        <div>
-        <Avis />
-        </div>
-        <div id="contact">
-        <Contact />    
-        </div>
+     <div id='prestations'>
+     <Préstations />
+     </div>
+     <div>
+     <Tarifs />
+     </div>
+     <div>
+     <Galerie />
+     </div>
+ 
+     <div>
+     <Avis />
+     </div>
+     <div id="contact">
+     <Contact />    
      </div>
     </div>
   );
