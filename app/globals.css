@@ -40,12 +40,10 @@ html, body {
   scroll-behavior: smooth;
 }
 
-body {
+body::before {
   background-image: url("/texture.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
-  scroll-behavior: smooth;
 }
 
 h1 {
