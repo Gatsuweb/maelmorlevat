@@ -16,7 +16,6 @@ export default function Home() {
   
   return (
     <div className={styles.page}>
-      <div className={styles.bgMarbre}></div>
           <div className={styles.navBar}>
        <Nav />
       </div>
