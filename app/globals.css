@@ -40,8 +40,8 @@ html, body {
   scroll-behavior: smooth;
 }
 
-body {
-  background-image: url("texture.svg");
+.bgmarble {
+  background-image: url("/texture.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
