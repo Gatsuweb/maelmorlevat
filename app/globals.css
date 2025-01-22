@@ -42,7 +42,7 @@ html, body {
 
 body {
   background-image: url("/texture.svg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   scroll-behavior: smooth;
@@ -92,7 +92,13 @@ a {
   
 }
 @media screen and (max-width: 1025px) {
-  
+  body {
+    background-image: url("/texture.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    scroll-behavior: smooth;
+  }
 }
 @media screen and (max-width: 769px) {
   
