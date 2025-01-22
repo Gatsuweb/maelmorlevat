@@ -10,13 +10,20 @@
     z-index: 9998;
 
 }
+.page {
+    position: relative; /* Crée un nouveau contexte pour le stacking */
+    overflow: hidden; /* Évite les débordements visuels */
+  }
 
-#contact {
-    background-image: url("/texture.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
+.bgimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Prend toute la largeur de l'écran */
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    object-fit: cover;
+    z-index: -1;
+  }
 
 
 @keyframes navoff {
