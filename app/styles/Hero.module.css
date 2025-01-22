@@ -183,7 +183,7 @@
 }
 @media screen and (max-width: 480px) {
     .heroContainer{
-        height: 100vh;
+        height: 100dvh;
         background-image: url("/bgm.svg");
         background-size: cover;
         background-position: 30%;
@@ -214,9 +214,11 @@
     
     #imgmail{
         margin-top: 1%;
+        height: 60;
+        width: 55;
     }
 
     .invisibleDiv {
-        width: 0;
+        display: none;
     }
 }
