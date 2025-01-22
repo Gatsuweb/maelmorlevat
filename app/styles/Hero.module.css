@@ -89,9 +89,9 @@
     opacity: 1;
     transition: opacity 0.3s ease;
 }
-.iconeshero a:last-child {
-    margin-top: -3%;
-}
+/* .iconeshero a:last-child {
+    margin-top: 0;
+} */
 
 @keyframes textAnim {
     0% {
