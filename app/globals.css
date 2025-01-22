@@ -45,7 +45,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
 }
 
 
@@ -89,9 +88,46 @@ a {
   text-decoration: none;
 }
 
+@media screen and (max-width: 1441px) {
+  body {
+    background-image: url("/texture.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+}
+@media screen and (max-width: 1025px) {
+  body {
+    background-image: url("/texture.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+}
+@media screen and (max-width: 769px) {
+  body {
+    background-image: url("/texture.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+}
 @media screen and (max-width: 480px) {
-
+  body {
+    background-image: url("/texture.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
   h2 {
     text-align: center;
-  } 
+  }
 }
