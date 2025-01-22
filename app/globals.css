@@ -41,9 +41,13 @@ html, body {
 }
 
 body {
-  background-image: url("/texture.png");
+  /* background-image: url("/texture.png");
   background-size: contain;
+  background-repeat: no-repeat; */
+  background-image: url("/couteau.svg");
+  background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
   scroll-behavior: smooth;
 }
 
