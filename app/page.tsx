@@ -35,7 +35,7 @@ export default function Home() {
         <Image src="/logomael.svg" alt='Photo auteur' height={500} width={250} className={styles.logoAbout} />
      </div>
      <SousAboutdeux />
-<div className={styles.testBg}>
+
      <div id='prestations'>
      <Préstations />
      </div>
@@ -54,7 +54,6 @@ export default function Home() {
      </div>
      <div>
      <Footer />
-     </div>
      </div>
     </div>
   );
