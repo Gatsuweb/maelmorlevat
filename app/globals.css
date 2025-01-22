@@ -40,12 +40,12 @@ html, body {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   background-image: url("/texture.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
+} */
 
 
 h1 {
