@@ -186,6 +186,7 @@
         height: 100vh;
         background-image: url("/bgm.svg");
         background-size: cover;
+        background-position: 30%;
         background-repeat: no-repeat;
         width: 100%;
         overflow: hidden;
