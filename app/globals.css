@@ -98,13 +98,6 @@ a {
   
 }
 @media screen and (max-width: 480px) {
-    body {
-      background-image: url("/texturem.svg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-    }
-
 
   h2 {
     text-align: center;
