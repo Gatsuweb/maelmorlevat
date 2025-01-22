@@ -44,6 +44,7 @@ body {
   background-image: url("/texture.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   scroll-behavior: smooth;
 }
 
