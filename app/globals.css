@@ -42,9 +42,8 @@ html, body {
 
 body {
   background-image: url("/texture.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
   scroll-behavior: smooth;
 }
 
