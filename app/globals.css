@@ -43,8 +43,9 @@ html, body {
 body {
   background-image: url("/texture.svg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
-
 }
 
 
@@ -89,43 +90,19 @@ a {
 }
 
 @media screen and (max-width: 1441px) {
-  body {
-    background-image: url("/texture.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-    background-position: center;
-  }
   
 }
 @media screen and (max-width: 1025px) {
-  body {
-    background-image: url("/texture.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-    background-position: center;
-  }
   
 }
 @media screen and (max-width: 769px) {
-  body {
-    background-image: url("/texture.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-    background-position: center;
-  }
   
 }
 @media screen and (max-width: 480px) {
-  body {
-    background-image: url("/texture.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  
+
   h2 {
     text-align: center;
   }
