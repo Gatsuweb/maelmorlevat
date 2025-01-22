@@ -90,9 +90,7 @@ a {
 }
 
 @media screen and (max-width: 480px) {
-  body {
-    background-image: url("/texturem.svg");
-  }
+
   h2 {
     text-align: center;
   } 
