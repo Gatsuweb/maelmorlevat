@@ -68,6 +68,15 @@
   
 }
 @media screen and (max-width: 1025px) {
+
+    .bgImg{
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
     .navBar {
         padding-bottom: 2%;
     }
@@ -92,5 +101,12 @@ display: none;
     }
 }
 @media screen and (max-width: 480px) {
-
+    .bgImg{
+        height: 100dvh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
 }
