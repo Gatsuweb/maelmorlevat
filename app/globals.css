@@ -43,7 +43,7 @@ html, body {
 body {
   background-image: url("/texture.svg");
   background-repeat: no-repeat;
-  background-position: 80% 1%;
+
   background-attachment: fixed;
 }
 
