@@ -37,10 +37,8 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body>
-        <div className="bgmarble">
-          {children}
-          <Footer />
-        </div>
+        {children}
+        <Footer />
       </body>
     </html>
   );

@@ -40,11 +40,13 @@ html, body {
   scroll-behavior: smooth;
 }
 
-.bgmarble {
+body {
   background-image: url("/texture.svg");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-position: 80% 1%;
+  background-attachment: fixed;
 }
+
 
 h1 {
   font-family: var(--primaryfont);
