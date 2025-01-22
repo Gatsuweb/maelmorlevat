@@ -92,6 +92,14 @@ a {
   
 }
 @media screen and (max-width: 1025px) {
+  body {
+    background-image: url("/texture.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
   
 }
 @media screen and (max-width: 769px) {
