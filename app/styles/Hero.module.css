@@ -89,9 +89,9 @@
     opacity: 1;
     transition: opacity 0.3s ease;
 }
-/* .iconeshero a:last-child {
-    margin-top: 0;
-} */
+.iconeshero a:last-child {
+    margin-top: -3%;
+}
 
 @keyframes textAnim {
     0% {
@@ -214,8 +214,8 @@
     
     #imgmail{
         margin-top: 2%;
-        height: 60;
-        width: 55;
+        height: 60px;
+        width: 55px;
     }
 
     .invisibleDiv {

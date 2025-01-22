@@ -28,7 +28,7 @@ export const Hero = () => {
         <div className={styles.iconeshero} id='accueil'>
           <a href="https://www.instagram.com/mael.morlevat/" target='blank' ><Image src="/inst.svg" alt='icone instagram' width='40' height='40' /></a>
           <a href="https://www.linkedin.com/in/ma%C3%ABl-morlevat-aa02a31b9/" target='blank' ><Image src="/linke.svg" alt='icone linkedin' width='40' height='40' /></a>
-          <a href="mailto:maelmorlevat@gmail.com"><Image src="/msg.png" alt='icone contact' width='40' height='40' id={styles.imgmail}/></a>
+          <a href="mailto:maelmorlevat@gmail.com"><Image src="/mails.svg" alt='icone contact' width='50' height='55' id={styles.imgmail}/></a>
         </div>
       </div>
     </div>
