@@ -9,9 +9,7 @@ import { Nav } from "./components/Nav";
 import { Préstations } from "./components/Préstations";
 import styles from "./page.module.css";
 import { Tarifs } from "./components/Tarifs";
-
 import { SousAboutdeux } from "./components/sousaboutdeux";
-import { Footer } from "./components/Footer";
 
 export default function Home() {
   
@@ -52,9 +50,7 @@ export default function Home() {
      <div id="contact">
      <Contact />    
      </div>
-     <div>
-     <Footer />
-     </div>
+
     </div>
   );
 }
