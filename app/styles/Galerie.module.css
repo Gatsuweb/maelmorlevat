@@ -50,7 +50,7 @@ width: 70%;
 }
 @media screen and (max-width: 1580px) {
     .galerieImgs {
-        height: 420vh;
+        height: 450vh;
         overflow: hidden;
         margin-right: 5%;
         margin-left: 5%;
