@@ -13,8 +13,8 @@
 }
 
 .bgmarble {
-    background-image: url("/texture.png");
-    background-size: contain;
+    background-image: url("/texture.svg");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
