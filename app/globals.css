@@ -46,6 +46,7 @@ body {
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+  background-color: #171717;
 }
 
 
@@ -106,7 +107,7 @@ a {
 }
 @media screen and (max-width: 480px) {
   body {
-    background-size: contain; /* Ajuste l'image pour qu'elle s'adapte sans couper */
+    background-size: 300px 300px; /* Ajuste l'image pour qu'elle s'adapte sans couper */
     background-position: center top; /* Positionne l'image correctement */
   }
   h2 {
