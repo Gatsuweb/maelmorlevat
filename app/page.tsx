@@ -16,6 +16,13 @@ export default function Home() {
   
   return (
     <div className={styles.page}>
+      <Image 
+      src="/texture.svg"
+      alt="bg image"
+      objectFit="cover"
+      quality={100}
+      className={styles.bgImg}
+      />
           <div className={styles.navBar}>
        <Nav />
       </div>

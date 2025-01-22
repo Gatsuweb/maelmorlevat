@@ -1,24 +1,9 @@
-
 .page {
- 
     position: relative;
-    width: 100vw;
 }
-
-.page::before {
-    position: absolute;
-    top: 100vh;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("/texture.svg"); /* Chemin de ton image */
-    background-size: cover; /* Ajuste l'image pour couvrir tout l'écran */
-    background-position: center;
-    background-repeat: no-repeat; /* Empêche la répétition */
-    background-attachment: fixed;
-    z-index: -1; /* Fixe l'image lors du scroll */
+.bgImg{
+    z-index: -1;
 }
-
 
 .navBar {
     position: fixed;
