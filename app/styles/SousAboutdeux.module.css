@@ -180,9 +180,9 @@
   }
 
 
-  .imgSousAboutLegumes {
-      height: 80%;
-      width: 80%;
+  .imgSousAboutLegumes{
+    height: 175px;
+    width: 250px;
   }
 }
 @media screen and (max-width: 1025px) {
