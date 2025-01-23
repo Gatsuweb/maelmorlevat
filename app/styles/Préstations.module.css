@@ -34,14 +34,11 @@
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
-
+  height: 100%;
     flex: 1;
-    padding: 0% 8%;
+    padding: 0% 6%;
 }
 
-.prestationCard p:last-child {
-  padding-top: 2%;
-}
 
 .prestationCard{
 
