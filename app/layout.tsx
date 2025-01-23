@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Découvrez Mael Morlevat, chef cuisinier à domicile basé à Paimpol dans les Côtes d'Armor, spécialisé dans des prestations gastronomiques sur mesure.",
   keywords:
-    "chef cuisinier, cuisine à domicile, prestations gastronomiques, repas sur mesure",
+    "chef cuisinier, cuisine à domicile, prestations gastronomiques, repas sur mesure, batchcooking, Paimpol, Côtes d'Armor ",
   authors: [{ name: "Mael Morlevat" }],
   openGraph: {
     title: "Mael Morlevat - Chef cuisinier à domicile sur Paimpol",
     description:
       "Services de chef cuisinier à domicile pour des repas uniques et personnalisés.",
-    url: "https://mael-morlevat.fr",
+    url: "https://maelmorlevat.fr",
     type: "website",
     images: [
       {
