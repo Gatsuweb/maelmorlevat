@@ -36,7 +36,11 @@
     flex-direction: column;
   height: 100%;
     flex: 1;
-    padding: 1% 4%;
+    padding: 0% 4%;
+}
+
+.prestationCard:nth-child(2){
+  padding: 0 5% 2% 5%;
 }
 
 
