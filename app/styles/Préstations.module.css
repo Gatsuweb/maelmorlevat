@@ -36,7 +36,7 @@
     flex-direction: column;
   height: 100%;
     flex: 1;
-    padding: 0% 7%;
+    padding: 0% 6%;
 }
 
 
@@ -79,7 +79,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 0%;
+    padding-bottom: 2%;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
   }
 
@@ -95,8 +95,8 @@
     padding: 0;
   }
   .prestationIcon img {
-    width: 125px;
-    height: 100px;
+    width: 110px;
+    height: 85px;
   }
   
 }
