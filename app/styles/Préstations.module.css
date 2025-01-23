@@ -68,7 +68,7 @@
   }
   
   .prestationDescription {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     margin-top: -4%;
     margin-bottom: 1.2rem;
@@ -86,16 +86,10 @@
 @media screen and (max-width: 1600px) {
 
   .prestationDescription {
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.4;
     margin-bottom: 10px;
   }
-
-  .prestationCard, .prestationCards {
-
-    padding: 0% 2%;
-}
-
 
   .prestationIcon {
     padding: 0;
