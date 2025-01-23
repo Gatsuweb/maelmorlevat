@@ -38,7 +38,7 @@ export const Nav = () => {
               <li onClick={toggleMenu}><a href="#accueil">Accueil</a></li>
               <li onClick={toggleMenu}><a href="#about">À propos</a></li>
               <li><Image src="/logomael.svg" alt='logo auteur' height='60' width='60' /></li>
-              <li onClick={toggleMenu}><a href="#prestations">Préstations</a></li>
+              <li onClick={toggleMenu}><a href="#prestations">Prestations</a></li>
               <li onClick={toggleMenu}><a href="#galerie">Galerie</a></li>
             </ul>
           </div>

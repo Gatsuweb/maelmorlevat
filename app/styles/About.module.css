@@ -2,8 +2,6 @@
     position: relative;
     height: 100vh;
     border-left: 1px solid var(--thirdcolor);
-  
-
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
@@ -83,7 +81,17 @@
     .aboutContainer h2 {
         font-size: 4rem;
     }
+
   
+}
+@media screen and (max-width: 1280px) {
+
+    .imgabout{
+        width: 285px;
+        height: 750px;
+        object-fit: cover;
+    
+    }
 }
 @media screen and (max-width: 1025px) {
    .aboutContainer {

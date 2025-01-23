@@ -169,6 +169,25 @@
   }
   
 
+@media screen and (max-width: 1280px) { 
+  .imgSousAboutMael {
+    height: 100%;
+    width: 100%;
+  }
+
+  .imgSousAbout {
+    height: 100%;
+    width: 100%;
+  }
+  
+
+
+  .imgSousAboutLegumes {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+  }
+}
 @media screen and (max-width: 1025px) {
  .sousAboutDeuxContainer {
         height: 100%;
