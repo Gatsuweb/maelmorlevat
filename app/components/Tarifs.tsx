@@ -28,7 +28,7 @@ export const Tarifs = () => {
     <div className={styles.tarifsContainer}>
                   <h2 id={styles.tarifsFirst}>Tarifs</h2>
         <div className={styles.tarifsCitation}>
-            <h3>&quot;Le sur-mesure est le maitre mot.&quot;</h3>
+            <h3>&quot;Le sur-mesure est le maître mot.&quot;</h3>
         </div>
         <div className={styles.tarifsContent}>
             <h2 id={styles.tarifsLast}>Tarifs</h2>

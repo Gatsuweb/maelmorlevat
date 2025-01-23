@@ -184,7 +184,7 @@
 @media screen and (max-width: 480px) {
     .heroContainer{
         height: 100dvh;
-        background-image: url("/bgm.svg");
+        background-image: url("/bgmg.svg");
         background-size: cover;
         background-position: 30%;
         background-repeat: no-repeat;

@@ -10,7 +10,7 @@
 
 .navBar {
     position: absolute;
-    width: 100vw;
+    width: 100%;
     border-bottom: 1px solid white;
     animation: navoff 5s forwards;
     z-index: 9998;
