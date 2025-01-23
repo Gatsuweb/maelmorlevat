@@ -39,6 +39,10 @@
     padding: 0% 8%;
 }
 
+.prestationCard p:last-child {
+  padding-top: 2%;
+}
+
 .prestationCard{
 
     border-bottom: 1px solid #FAEDCD;
