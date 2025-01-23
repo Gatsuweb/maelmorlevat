@@ -139,6 +139,11 @@ width: 70%;
     .tarifsCitation {
         text-align: center;
     }
+    .tarifsContent {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
     .tarifsContent button {
         border: 1px solid var(--thirdcolor);
         padding: 6%;
