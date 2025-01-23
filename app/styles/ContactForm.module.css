@@ -75,7 +75,7 @@
      
     }
     .formGroup input  {
-        height: 30px;
+        height: 25px;
         width: 100%;
         background-color: transparent;
         border: 1px solid var(--thirdcolor);
@@ -86,6 +86,7 @@
     .formGroup textarea {
         width: 100%;
         padding: 6% 4%;
+        height: 250px;
     }
 
     .formGroup label {
