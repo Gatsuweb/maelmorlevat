@@ -70,7 +70,7 @@ export const Préstations = () => {
         <div key={index} className={styles.prestationCards}>
           <div className={styles.iconeTitle}>
           <div className={styles.prestationIcon}>{prestation.icon.startsWith('/') ? (
-                <Image src={prestation.icon} alt={prestation.title} height={200} width={200} />
+                <Image src={prestation.icon} alt={prestation.title} height={180} width={180} />
               ) : (
                 <span>{prestation.icon}</span>
               )}</div>
