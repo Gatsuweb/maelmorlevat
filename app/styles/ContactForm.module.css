@@ -121,6 +121,8 @@
     .formGroup textarea {
         width: 100%;
         padding: 6% 4%;
+        height: 200px;
+        
     }
 
     .formGroup label {

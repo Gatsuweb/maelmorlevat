@@ -12,16 +12,16 @@ const prestationsData = [
     icon: '/diner-intime.svg',
   },
   {
-    title: 'Batch Cooking',
-    description: `Vous manquez de temps dans votre semaine ? Le batchcooking est fait pour vous ! Cette méthode vous permet de préparer plusieurs repas à l'avance pour gagner du temps tout en mangeant sainement. Sportif.ve, toujours pressé.e ou contraint à un régime particulier, je serai ravi de vous aider à organiser vos repas : courses, préparation, conservation. Je m’occupe de tout !`,
-    price: 'À partir de 25€/heure',
-    icon: '/batchcooking.svg',
-  },
-  {
     title: 'Événements',
     description: `Pour vos anniversaires, repas entre amis, fêtes d'entreprise ou réunions familiales. Profitez d'un menu personnalisé, élaboré avec des ingrédients de qualité. Que ce soit un apéritif, un plat principal ou un dessert, vous pourrez savourer pleinement chaque moment avec vos invités.`,
     price: 'Devis personnalisé',
     icon: '/evenements.svg',
+  },
+  {
+    title: 'Batch Cooking',
+    description: `Vous manquez de temps dans votre semaine ? Le batchcooking est fait pour vous ! Cette méthode vous permet de préparer plusieurs repas à l'avance pour gagner du temps tout en mangeant sainement. Sportif.ve, toujours pressé.e ou contraint à un régime particulier, je serai ravi de vous aider à organiser vos repas : courses, préparation, conservation. Je m’occupe de tout !`,
+    price: 'À partir de 25€/heure',
+    icon: '/batchcooking.svg',
   },
   {
     title: 'Cours de cuisine',
