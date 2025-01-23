@@ -88,12 +88,17 @@
   }
   
   .carousselCard p {
+  
     margin-top: 10%;
     font-size: 1.1rem;
   }
 }
 @media screen and (max-width: 769px) {
-
+  .carousselCard p {
+    margin-top: 4%;
+    padding-top: 3%;
+    font-size: 1.1rem;
+  }
 }
 @media screen and (max-width: 480px) {
 
