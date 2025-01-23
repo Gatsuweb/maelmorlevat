@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/logoonglet.svg",
-        width: 500,
-        height: 500,
-        alt: "Logo Mael Morlevat",
+        url: "/maeldata.svg",
+        width: 626,
+        height: 1000,
+        alt: "image auteur Mael Morlevat",
       },
     ],
   },
