@@ -54,7 +54,7 @@ import styles from '../styles/SousAboutdeux.module.css'
       }}>
             <div className={styles.sousAboutRightContentDeux}>
                 <p id={styles.firstP}>Parce que chaque plat mérite les meilleurs ingrédients, je sélectionne avec soin des produits de qualité pour sublimer vos moments gourmands tout en y apportant une touche personnelle.</p>
-                <Image src="/galerie/legumes.svg" alt='' height={300} width={325} className={styles.imgSousAbout}/>
+                <Image src="/legumes.jpg" alt='' height={300} width={325} className={styles.imgSousAboutLegumes}/>
                 <div className={styles.borderLastRight}> 
                 <p id={styles.lastP}>Parce que chaque plat mérite les meilleurs ingrédients, je sélectionne avec soin des produits de qualité pour sublimer vos moments gourmands tout en y apportant une touche personnelle.</p>
                 </div>

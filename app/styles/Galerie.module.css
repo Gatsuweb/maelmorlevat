@@ -26,7 +26,6 @@
 }
 
 .boxTop, .boxBottom {
-    height: 50%;
     width: 100%;
     overflow: hidden;
 }
