@@ -134,6 +134,7 @@ width: 70%;
     .tarifsContainer {
         border-top: none;
         border-bottom: none;
+        text-align: center;
     }
     .tarifsCitation {
         text-align: center;

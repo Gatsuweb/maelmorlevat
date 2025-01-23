@@ -13,7 +13,7 @@ export const Contact = () => {
             <p>
             N&apos;hésitez pas à me contacter via le formulaire ci-contre.
             </p>
-            <p> à bientot je l&apos;espere dans votre cuisine !</p>
+            <p> à bientôt je l&apos;espère dans votre cuisine !</p>
           </div>
           <div className={styles.contactformulaire}>
             <ContactForm />
