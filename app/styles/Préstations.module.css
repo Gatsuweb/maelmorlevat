@@ -157,7 +157,7 @@ border: 1px solid #FAEDCD;
 }
     
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .prestationsContainer {
 
       flex-direction: column;
@@ -187,7 +187,7 @@ border: 1px solid #FAEDCD;
     .linepresta {
      display: none;
   }
-  }
+  } */
   
 @media screen and (max-width: 480px) {
   .prestationsContainer {
