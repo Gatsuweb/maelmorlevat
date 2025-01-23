@@ -1,5 +1,6 @@
 .page {
     position: relative;
+    overflow-x: hidden;
 }
 .bgImg{
     position: fixed;

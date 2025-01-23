@@ -32,6 +32,7 @@
 
 .star {
   font-size: clamp(1.4rem, 1.2154rem + 0.8205vw, 2.2rem);
+  color: #F3ED03;
 }
 
 
@@ -83,7 +84,7 @@
 
   .star {
     font-size: 2.5rem;
-    color: #F3ED03;
+ 
   }
   
   .carousselCard p {

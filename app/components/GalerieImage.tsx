@@ -66,7 +66,7 @@ export const GalerieImage = () => {
     {
     source: "/galerie/image4.jpg",
     alt: "image préparation de cuisine",
-    // desc:
+    desc: "Festival du rhum, Show-cooking, Guadeloupe"
   },
 
     {
