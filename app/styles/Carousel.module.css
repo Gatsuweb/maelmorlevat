@@ -94,9 +94,15 @@
   }
 }
 @media screen and (max-width: 769px) {
+  .carousselCard {
+    height: 100%;
+    width:100%;
+    padding: 2% 3% 5% 2%;
+    
+  }
   .carousselCard p {
-    margin-top: 4%;
-    padding-top: 3%;
+    margin-top: 0%;
+    padding-top: 1%;
     font-size: 1.1rem;
   }
 }
