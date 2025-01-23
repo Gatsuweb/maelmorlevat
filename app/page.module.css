@@ -9,11 +9,9 @@
 }
 
 .navBar {
-    position: fixed;
     width: 100vw;
     border-bottom: 1px solid white;
     animation: navoff 5s forwards;
-    z-index: 9998;
 
 }
 
