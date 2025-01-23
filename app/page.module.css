@@ -13,34 +13,10 @@
     width: 100vw;
     border-bottom: 1px solid white;
     animation: navoff 5s forwards;
-    animation-timeline: scroll();
-    animation-range-start: 100vh;
-    animation-range-end: 150vh;
     z-index: 9998;
 
 }
 
-
-
-
-@keyframes navoff {
-    to {
-        opacity: 0.2;
-    }
-    
-}
-
-.navBar:hover {
-    transition: all 10s ease;
-    opacity: 1;
-    animation: navon 10s;
-}
-@keyframes navon {
-    to {
-        opacity: 1;
-    }
-    
-}
 
 .about {
     position: relative;
@@ -83,12 +59,7 @@ display: none;
  
 }
 @media screen and (max-width: 769px) {
-    @keyframes navoff {
-        to {
-            opacity: 1;
-        }
-        
-    }
+
 }
 @media screen and (max-width: 480px) {
     .bgImg{
