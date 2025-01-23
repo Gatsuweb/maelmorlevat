@@ -106,10 +106,14 @@
     width: 125px;
     height: 100px;
   }
+  .prestationCard:nth-child(2){
+    padding-bottom: 2%;
+  }
   
 }
 @media screen and (max-width: 1025px) {
   .prestationsContainer {
+    height: 175vh;
     margin-top: 10%;
     flex-direction: column;
     gap: 50px;
@@ -174,8 +178,8 @@
   
 @media screen and (max-width: 480px) {
   .prestationsContainer {
-    height: 205vh;
-    height: 200dvh;
+    height: 250vh;
+    height: 250dvh;
     flex-direction: column;
     gap: 50px;
 
