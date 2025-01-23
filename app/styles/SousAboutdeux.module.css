@@ -299,13 +299,17 @@
         gap: 50px;
     
     } 
+
+    .sousAboutDeuxContainer p {
+      letter-spacing: 0.6px;
+    }
  
     .sousAboutLeftDeux, .sousAboutMidDeux, .sousAboutRightDeux {
         height: 100%;
         padding: 0 4%;
         max-width: 100%;
         text-align: justify;
-        letter-spacing: 0.75px;
+    
 
     }
 
