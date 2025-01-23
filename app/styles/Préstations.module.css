@@ -70,7 +70,7 @@
   .prestationDescription {
     font-size: 1rem;
     line-height: 1.5;
-    margin-top: -6%;
+    margin-top: -4%;
     margin-bottom: 1.2rem;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
   }
@@ -91,12 +91,18 @@
     margin-bottom: 10px;
   }
 
+  .prestationCard, .prestationCards {
+
+    padding: 0% 2%;
+}
+
+
   .prestationIcon {
     padding: 0;
   }
   .prestationIcon img {
-    width: 110px;
-    height: 85px;
+    width: 125px;
+    height: 100px;
   }
   
 }
