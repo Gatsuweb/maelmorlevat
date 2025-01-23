@@ -120,7 +120,7 @@
 }
 @media screen and (max-width: 1025px) {
   .prestationsContainer {
-    height: 175vh;
+    height: 150vh;
     margin-top: 10%;
     flex-direction: column;
     gap: 50px;
@@ -191,8 +191,8 @@ border: 1px solid #FAEDCD;
   
 @media screen and (max-width: 480px) {
   .prestationsContainer {
-    height: 270vh;
-    height: 270dvh;
+    height: 255vh;
+    height: 255dvh;
     flex-direction: column;
     gap: 50px;
 
