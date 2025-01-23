@@ -67,6 +67,13 @@
     text-align: center;
 
   }
+
+  .prestationIcon:first-child {
+    padding-top: 1%;
+    font-size: 2rem;
+    text-align: center;
+
+  }
   
   .prestationTitle {
     font-size: 1.5rem;
@@ -178,8 +185,8 @@
   
 @media screen and (max-width: 480px) {
   .prestationsContainer {
-    height: 250vh;
-    height: 250dvh;
+    height: 270vh;
+    height: 270dvh;
     flex-direction: column;
     gap: 50px;
 
