@@ -29,6 +29,37 @@
     flex-direction: column;
 }
 
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+color: white;
+  background-image: url("/texture.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid var(--thirdcolor);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 80%;
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 
 
 @media screen and (max-width: 1580px) {

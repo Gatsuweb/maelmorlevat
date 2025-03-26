@@ -15,13 +15,14 @@ export default function Home() {
   
   return (
     <div className={styles.page}>
-      <Image 
-      src="/texture.svg"
-      alt="bg image"
-      objectFit="cover"
-      quality={100}
-      className={styles.bgImg}
-      />
+<Image 
+  src="/texture.svg"
+  alt="bg image"
+  quality={100}
+  height={1080}
+  width={1920}
+  className={styles.bgImg}
+/>
           <div className={styles.navBar}>
        <Nav />
       </div>
