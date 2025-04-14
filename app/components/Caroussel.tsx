@@ -6,6 +6,11 @@ import styles from "../styles/Carousel.module.css"
 export const Caroussel = () => {
     const card = [
         {
+            auteur: "N. Menguy",
+            star: "5",
+            avis: "Une très bonne organisation et Maël est un super cuisinier. Et moi rien à faire. Il a même fait l'argenterie et le service à table. Encore merci Maël. À refaire et je recommande."
+        },
+        {
             auteur: "T. Barjon",
             star: "5",
             avis: "Une soirée entre amis parfaite grâce à ce chef à domicile ! Des plats délicieux, un service impeccable, et une ambiance conviviale. Nous avons pu profiter pleinement du moment. Une expérience à refaire !"
@@ -40,7 +45,7 @@ export const Caroussel = () => {
             <div
                 className={styles.carousselContent}
                 style={{
-                    transform: `translateX(-${currentIndex * 33 }%)`,
+                    transform: `translateX(-${currentIndex * 21 }%)`,
                     transition: "transform 0.5s ease-in-out",
                 }}
             >

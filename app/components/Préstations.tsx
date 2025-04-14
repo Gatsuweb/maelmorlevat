@@ -8,7 +8,7 @@ const prestationsData = [
   {
     title: 'Tête à tête',
     description: `Pour une soirée romantique ou un moment en couple, laissez-vous séduire par un menu sur mesure, élaboré à l'avance selon vos envies. En 3, 5 ou 6 temps, chaque plat est pensé pour s'adapter à votre appétit et à vos goûts. Une option d'accord mets et vins peut également sublimer votre expérience. Si vous êtes un amateur de bons crus, n'hésitez pas à le mentionner !`,
-    price: 'À partir de 35€/personne',
+    price: 'À partir de 50€/personne',
     icon: '/diner-intime.svg',
   },
   {
@@ -20,7 +20,7 @@ const prestationsData = [
   {
     title: 'Batch Cooking',
     description: `Vous manquez de temps dans votre semaine ? Le batchcooking est fait pour vous ! Cette méthode vous permet de préparer plusieurs repas à l'avance pour gagner du temps tout en mangeant sainement. Sportif.ve, toujours pressé.e ou contraint à un régime particulier, je serai ravi de vous aider à organiser vos repas : courses, préparation, conservation. Je m’occupe de tout !`,
-    price: 'À partir de 25€/heure',
+    price: 'À partir de 40€/heure',
     icon: '/batchcooking.svg',
   },
   {
