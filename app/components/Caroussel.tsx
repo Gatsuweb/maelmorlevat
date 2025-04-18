@@ -20,11 +20,7 @@ export const Caroussel = () => {
             star: "5",
             avis: "Un moment exceptionnel lors de ce cours de cuisine avec Maël ! Grâce à ses explications claires Et sa patience, j’ai appris des techniques faciles à reproduire. Les Saint-Jacques Étaient savoureuses et adaptées à mes goûts. Je recommande vivement !"
         },
-        {
-            auteur: "A. Calvel ",
-            star: "5",
-            avis: "Une soirée en tête-à-tête mémorable ! Des plats délicieux, un service attentionné et une expérience parfaitement adaptée à nos goûts. Le chef a su rendre ce moment unique. Je recommande sans hésitation !"
-        },
+   
     ]
 
     const [currentIndex, setCurrentIndex] = useState(1);
@@ -45,7 +41,7 @@ export const Caroussel = () => {
             <div
                 className={styles.carousselContent}
                 style={{
-                    transform: `translateX(-${currentIndex * 21 }%)`,
+                    transform: `translateX(-${currentIndex * 31 }%)`,
                     transition: "transform 0.5s ease-in-out",
                 }}
             >

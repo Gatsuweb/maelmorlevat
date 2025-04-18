@@ -26,7 +26,7 @@ const prestationsData = [
   {
     title: 'Cours de cuisine',
     description: `Offrir une expérience culinaire unique avec un chef professionnel ! Découvrir des techniques de pro, réaliser des plats délicieux et recevoir des fiches recettes pour les refaire chez vous. Que vous soyez débutant.e ou passionné.e, chaque cours est une occasion d’apprendre et de savourer le plaisir de cuisiner !`,
-    price: 'À partir de 30€/heure',
+    price: 'À partir de 50€/heure',
     icon: '/cours.svg',
   },
 ];
