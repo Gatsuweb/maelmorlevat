@@ -46,7 +46,7 @@ export const Caroussel = () => {
             <div
                 className={styles.carousselContent}
                 style={{
-                    transform: `translateX(-${currentIndex * 20 }%)`,
+                    transform: `translateX(-${currentIndex * 25 }%)`,
                     transition: "transform 0.5s ease-in-out",
                 }}
             >
