@@ -11,6 +11,11 @@ export const Caroussel = () => {
             avis: "Une très bonne organisation et Maël est un super cuisinier. Et moi rien à faire. Il a même fait l'argenterie et le service à table. Encore merci Maël. À refaire et je recommande."
         },
         {
+            auteur: "S. Eloy",
+            star: "5",
+            avis: "Belle rencontre avec Maël pour ce moment partagé.Au delà d’un repas haut de gamme , Maël est plus qu’un chef mais une personne attentionnée, discrète, à l’écoute et à la recherche de la perfection. Ce moment a été si agréable que nous n’hésiterons pas à le renouveler."
+        },
+        {
             auteur: "T. Barjon",
             star: "5",
             avis: "Une soirée entre amis parfaite grâce à ce chef à domicile ! Des plats délicieux, un service impeccable, et une ambiance conviviale. Nous avons pu profiter pleinement du moment. Une expérience à refaire !"
@@ -41,7 +46,7 @@ export const Caroussel = () => {
             <div
                 className={styles.carousselContent}
                 style={{
-                    transform: `translateX(-${currentIndex * 31 }%)`,
+                    transform: `translateX(-${currentIndex * 20 }%)`,
                     transition: "transform 0.5s ease-in-out",
                 }}
             >
